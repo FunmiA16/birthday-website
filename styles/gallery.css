@@ -1,0 +1,65 @@
+body {
+    background-color: #fceff9; /* light pastel pink */
+    font-family: 'Segoe UI', sans-serif;
+    color: #444;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+header {
+    background-color: #ffd6ec; /* pastel peachy-pink */
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #a8326c;
+    font-weight: bold;
+    background-color: #fff0f5;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+  }
+  
+nav a:hover {
+    background-color: #ffcce7;
+    color: #fff;
+  }
+  
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+    padding: 0 15px;
+  }
+  
+.polaroid {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    transform: rotate(-1deg);
+    transition: transform 0.3s ease;
+  }
+  
+.polaroid:hover {
+    transform: rotate(1deg) scale(1.03);
+  }
+  
+.polaroid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  

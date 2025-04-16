@@ -1,0 +1,97 @@
+body {
+    background-color: #fff0f6;
+    font-family: 'Georgia', serif;
+    color: #444;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #ffcce5;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 30px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #a3005a;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+  }
+  
+  nav a:hover {
+    background-color: #ff99cc;
+    color: #fff;
+  }
+  
+  .message {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  }
+  
+  .vibes h2 {
+    margin-bottom: 10px;
+  }
+  
+  .quote-box {
+    background-color: #ffe6f0;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 0 auto 30px;
+    max-width: 500px;
+  }
+  
+  .quote-box p {
+    font-style: italic;
+    margin: 10px 0;
+  }
+  
+  .music-section {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .mood-buttons button {
+    background-color: #ffcce5;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #a3005a;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .mood-buttons button:hover {
+    background-color: #ff99cc;
+    color: white;
+  }
+
+  .this-or-that ul {
+    list-style: none;
+    padding: 0;
+    font-weight: bold;
+    color: #a3005a;
+  }
+  
+  .spotify-embed {
+    border-radius: 12px;
+    width: 100%;
+    height: 80px;
+  }
+  
